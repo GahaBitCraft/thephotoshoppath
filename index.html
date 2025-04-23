@@ -41,6 +41,16 @@
     .shortcut-table th {
       background-color: #e0e0e0;
     }
+    .tool-item {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .tool-icon {
+      width: 32px;
+      height: 32px;
+      margin-right: 10px;
+    }
   </style>
 </head>
 <body>
@@ -64,18 +74,16 @@
 
   <div class="section">
     <h2>3. Common Tools and Their Uses</h2>
-    <ul>
-      <li><strong>Move Tool (V):</strong> Move selected objects or layers.</li>
-      <li><strong>Marquee Tools (M):</strong> Make rectangular, elliptical, or single-row selections.</li>
-      <li><strong>Lasso Tool (L):</strong> Freehand and polygonal selections.</li>
-      <li><strong>Quick Selection / Magic Wand (W):</strong> Auto-select similar pixels.</li>
-      <li><strong>Crop Tool (C):</strong> Crop the canvas size.</li>
-      <li><strong>Brush Tool (B):</strong> Paint with customized brush settings.</li>
-      <li><strong>Eraser Tool (E):</strong> Erase pixels from the layer.</li>
-      <li><strong>Clone Stamp Tool (S):</strong> Duplicate parts of an image.</li>
-      <li><strong>Gradient Tool (G):</strong> Fill with a gradient of colors.</li>
-      <li><strong>Text Tool (T):</strong> Add and edit text.</li>
-    </ul>
+    <div class="tool-item"><img src="https://img.icons8.com/ios-filled/50/move.png" class="tool-icon" alt="Move Tool"><strong>Move Tool (V):</strong> Move selected objects or layers.</div>
+    <div class="tool-item"><img src="https://img.icons8.com/ios-filled/50/selection.png" class="tool-icon" alt="Marquee Tool"><strong>Marquee Tools (M):</strong> Make rectangular or elliptical selections.</div>
+    <div class="tool-item"><img src="https://img.icons8.com/ios-filled/50/lasso-tool.png" class="tool-icon" alt="Lasso Tool"><strong>Lasso Tool (L):</strong> Freehand and polygonal selections.</div>
+    <div class="tool-item"><img src="https://img.icons8.com/ios-filled/50/magic-wand.png" class="tool-icon" alt="Magic Wand"><strong>Magic Wand (W):</strong> Auto-select similar pixels.</div>
+    <div class="tool-item"><img src="https://img.icons8.com/ios-filled/50/crop.png" class="tool-icon" alt="Crop Tool"><strong>Crop Tool (C):</strong> Trim and resize the canvas.</div>
+    <div class="tool-item"><img src="https://img.icons8.com/ios-filled/50/paint-brush.png" class="tool-icon" alt="Brush Tool"><strong>Brush Tool (B):</strong> Paint with various brush styles.</div>
+    <div class="tool-item"><img src="https://img.icons8.com/ios-filled/50/eraser.png" class="tool-icon" alt="Eraser Tool"><strong>Eraser Tool (E):</strong> Remove parts of the image.</div>
+    <div class="tool-item"><img src="https://img.icons8.com/ios-filled/50/clone-stamp.png" class="tool-icon" alt="Clone Stamp"><strong>Clone Stamp Tool (S):</strong> Duplicate image areas.</div>
+    <div class="tool-item"><img src="https://img.icons8.com/ios-filled/50/gradient.png" class="tool-icon" alt="Gradient Tool"><strong>Gradient Tool (G):</strong> Apply gradients for backgrounds or effects.</div>
+    <div class="tool-item"><img src="https://img.icons8.com/ios-filled/50/text.png" class="tool-icon" alt="Text Tool"><strong>Text Tool (T):</strong> Add and style text layers.</div>
   </div>
 
   <div class="section">
@@ -106,18 +114,41 @@
     <h2>5. Example Projects</h2>
     <h3>Design: Social Media Banner</h3>
     <ul>
-      <li>New document with size 1080x1080px.</li>
-      <li>Add background color or image.</li>
-      <li>Use text tool to add heading and subtitle.</li>
-      <li>Insert icons or branding logo.</li>
-      <li>Apply gradient or overlay effects.</li>
+      <li>Create a new 1080x1080px canvas.</li>
+      <li>Add a background image or color gradient.</li>
+      <li>Insert brand logo and icons.</li>
+      <li>Use text tool for catchy headline.</li>
+      <li>Apply drop shadow and outer glow effects.</li>
     </ul>
+
+    <h3>Design: Flyer Design</h3>
+    <ul>
+      <li>Use A4 size canvas with CMYK color profile.</li>
+      <li>Set up guides and margins.</li>
+      <li>Design with bold titles and contrasting colors.</li>
+      <li>Include call-to-action and contact details.</li>
+    </ul>
+
     <h3>Edit: Portrait Retouching</h3>
     <ul>
-      <li>Use Spot Healing Brush to clean blemishes.</li>
-      <li>Dodge and Burn tools to enhance highlights and shadows.</li>
-      <li>Apply a soft skin-smoothing filter using Gaussian Blur on a duplicated layer with masking.</li>
-      <li>Adjust color using Selective Color or Color Balance.</li>
+      <li>Use Spot Healing Brush to remove blemishes.</li>
+      <li>Apply Dodge and Burn to enhance features.</li>
+      <li>Use frequency separation for skin smoothing.</li>
+      <li>Adjust color using Curves and Selective Color.</li>
+    </ul>
+
+    <h3>Edit: Background Removal</h3>
+    <ul>
+      <li>Use Quick Selection or Pen Tool to select subject.</li>
+      <li>Refine edges using Select and Mask.</li>
+      <li>Remove background and add a new one or transparent layer.</li>
+    </ul>
+
+    <h3>Edit: Double Exposure Effect</h3>
+    <ul>
+      <li>Overlay two images with blend modes like Screen or Lighten.</li>
+      <li>Use masks to control visibility and blending.</li>
+      <li>Add final color grade with Gradient Map or Photo Filter.</li>
     </ul>
   </div>
 
